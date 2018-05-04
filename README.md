@@ -7,6 +7,7 @@ Con ayuda de esta clase podemos hacer más sencillo el envio de emails desde gma
 
 **DEBEMOS TENER ACTIVADA LA OPCION PARA PERMITIR EL ACCESO A APLICACIONES, SI NO, NO ENVIARA EL EMAIL**
 
+~~~
 bool envio = mailerSend.sendEmail("micorreo@gmail.com", "micontraseña", "receptor@email.com", "Asunto", codigo_html);
 
 if (envio)
@@ -17,6 +18,7 @@ else
 {
     Console.WriteLine("Acceso denegado, por favor asegurate de que el correo permita el acceso a aplicaciones terceras o que el correo este bien escrito");
 }
+~~~
 
 ## Ejemplo de codigo HTML
 
