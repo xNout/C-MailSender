@@ -5,6 +5,7 @@ Con ayuda de esta clase podemos hacer más sencillo el envio de emails desde gma
 
 ## Ejemplos de uso
 
+**DEBEMOS TENER ACTIVADA LA OPCION PARA PERMITIR EL ACCESO A APLICACIONES, SI NO, NO ENVIARA EL EMAIL**
 
 bool envio = mailerSend.sendEmail("micorreo@gmail.com", "micontraseña", "receptor@email.com", "Asunto", codigo_html);
 
